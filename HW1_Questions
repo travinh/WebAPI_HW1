@@ -1,0 +1,9 @@
+www.googleapis.com/books/v1/volumes?={{book_title}}  //this HTTP would request all the book title with the key "Turing" and wait for the 
+                                                        // response '200 OK' of STATUS.
+
+
+https://www.googleapis.com/books/v1/volumes/{{id}}  // this HTTP would request all the information about the book with the ID
+                                                     // "HyMcH_9eTtoC" which is the first book on the list from the request above. 
+                                                      // And we also wait for the respose '200 OK' of STATUS.
+
+    
